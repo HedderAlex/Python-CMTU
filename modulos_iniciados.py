@@ -57,6 +57,7 @@ try:
         labels = ['Módulos Iniciados', 'Módulos Não Iniciados']
         sizes = [modulos_iniciados, modulos_nao_iniciados]
         cores = [(0.2, 0.4, 0.2, 0.6), (0.6, 0.2, 0.2, 0.6)] # vermelho, verde, azul, transparência
+        explode = (0.1 , 0)
 
     # Criando o gráfico de pizza
     plt.figure(figsize=(8, 6))
